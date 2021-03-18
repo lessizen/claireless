@@ -1,0 +1,414 @@
+@import url("https://use.typekit.net/myt1nvy.css");
+
+/* ~~~~~~~~~~ GRID // DIV PLACEMENT // STYLING ~~~~~~~~~~ */
+html, body {
+  overflow-x: hidden;
+}
+
+/* utility classes */
+.position-relative {
+  position: relative;
+}
+
+.link-style-1 {
+  font-family: helvetica;
+  font-weight: 500;
+  font-size: 24pt !important;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.my-name {
+  font-family: helvetica;
+  font-weight: 500;
+  font-size: 25pt;
+  padding: 0px 10px 0px 4px;
+  margin: 0 !important;
+  position: absolute;
+}
+
+.work-container {
+  right: 0;
+  max-width: 1920px;
+  position: absolute;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 100%;
+}
+
+nav a {
+  color: #000;
+  display: block;
+  font-size: 25pt;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.row-margin {
+  margin-top: 100px;
+}
+
+/* ~~~~~~~~~~ TEXT // STYLING ~~~~~~~~~~ */
+@font-face {
+  font-family: degular;
+  src: url("https://use.typekit.net/myt1nvy.css");
+}
+
+@font-face {
+  font-family: compagnon;
+  src: url("Compagnon-LightItalic.otf");
+}
+
+.secret-01 {
+  color: white;
+  padding-left: 4px;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+.format-case {
+  font-family: degular;
+  font-weight: medium;
+  font-size: 13pt;
+}
+
+.title-case {
+  font-family: helvetica;
+  font-weight: 500;
+  font-size: 15pt;
+  justify-content: left;
+}
+
+.body-case {
+  font-family: degular;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13pt;
+  justify-content: left;
+  line-height: 1em;
+}
+
+.number-case {
+  font-family: Adobe Caslon;
+  font-style: italic;
+  font-size: 12pt;
+  justify-content: left;
+  width: 60%;
+}
+
+.info-case {
+  font-family: helvetica;
+  font-weight: thinner;
+  font-style: normal;
+  font-size: 20pt;
+  justify-content: left;
+}
+
+/* REACH OUT PAGEEEEEEE */
+.reach-out {
+  padding-left: 6px;
+}
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+  --offset: 20vw;
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+}
+
+.marquee__inner {
+  width: fit-content;
+  display: flex;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: marquee 22s linear infinite;
+}
+
+.marquee__index {
+  width: fit-content;
+  display: flex;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: marquee 10s linear infinite;
+}
+
+.less {
+  font-family: degular;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 60pt;
+  padding: 5px;
+}
+
+.more {
+  font-family: times;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 60pt;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.smile-case {
+  font-family: helvetica;
+  font-style: normal;
+  font-size: 50pt;
+}
+
+.marquee:hover .marquee__inner {
+  animation-play-state: running;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(var(--move-initial), 0, 0);
+  }
+
+  100% {
+    transform: translate3d(var(--move-final), 0, 0);
+  }
+}
+
+/* ~~~~~~~~~~  IMAGES // SIZING // POSITIONING ~~~~~~~~~~ */
+img {
+  height: auto !important;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.img-set {
+  width: 200%;
+}
+
+.img-resize {
+  width: 100.5%;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.work-container {
+  padding-top: 69px;
+}
+
+.img-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.img-padding-top {
+  padding-top: 1.50rem;
+}
+
+.push-more {
+  padding-top: 186px;
+}
+
+.push-less {
+  padding-top: 30px;
+}
+
+.push-most{
+  padding-top:3.5%;
+
+}
+.toptop {
+  padding-top: 222px !important;
+  padding-bottom: 50px;
+  padding-right: 20px;
+}
+
+.border {
+  box-shadow: 2px 2px 2px black;
+}
+
+/* regalia css */
+.space {
+  margin-left: 209px !important;
+}
+
+.img-regalia {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.img-poster {
+  padding-top: 20px;
+}
+
+/* blox css */
+.blox {
+  padding-top: 12px;
+}
+
+.bigger {
+  padding-left: 209px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-blox-1 {
+  width: 122%;
+}
+
+.img-blox-2 {
+  width: 148%;
+  padding-left: 80px;
+}
+
+.container-size {
+  width: 120%;
+}
+
+.container-size-wife {
+  width: 140%;
+  margin-left: 50px;
+}
+
+.container-size-regalia {
+  width: 130%;
+  margin-left: 100px;
+}
+
+.work-name {
+  margin: 0;
+}
+
+.container-size-drift {
+  margin-left: 60px !important;
+  padding-bottom: 50px;
+}
+
+.container-size-blox {
+  margin-left: 60px !important;
+  padding-bottom: 50px;
+}
+
+.container-size-lifestyles {
+  width: 110%;
+  margin-left: 90px !important;
+  padding-bottom: 50px;
+}
+
+.container-size-yellow {
+  padding-left: 170px;
+  width: 130%;
+  padding-bottom: 50px;
+}
+
+.resize-me {
+  width: 144%;
+  padding-top: 10px;
+}
+
+.proj-ex {
+  padding-bottom: 20px;
+}
+
+.yellow {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* width: 70%; */
+}
+
+.friend {
+  padding-bottom: 10px;
+}
+
+/* ~~~~~~~~~~ INTERACTIVITY ~~~~~~~~~~ */
+a {
+  text-decoration: none;
+}
+
+.dragme {
+  position: relative;
+  width: 200px;
+  height: auto;
+  cursor: move;
+  z-index: 99;
+  box-shadow: 3px 3px 3px black;
+}
+
+.itsme:hover {
+  /* color: white !important; */
+  background-color: black;
+  text-decoration: none;
+  padding-right: 100px;
+  width: 500%;
+}
+
+.itsme .eee:hover {
+  display: none;
+}
+
+.itsme:hover:before {
+  content: "CLAIRE L☻ES";
+  color: white;
+}
+
+.hilight:hover {
+  color: white !important;
+  background-color: black;
+  text-decoration: none;
+}
+
+body {
+  cursor: url(dag.png), auto;
+}
+
+a:hover {
+  cursor: url(dag-hover.png), auto;
+}
+
+.project {
+  transition: all .1s ease-in;
+}
+
+.project:hover {
+  /* transform: scale(1.02); */
+  ~webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.button {
+  font-family: degular;
+  font-size: 15pt;
+  background-color: white;
+  border: 1px solid black;
+  color: white;
+  font-color: blue;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.regalia-resize {
+  width: 110%;
+}
+
+.button:hover {
+  transform-text: rotateY(30deg)
+}
+
+.hello-padding {
+  padding-top: 90px;
+}

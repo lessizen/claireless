@@ -1,0 +1,99 @@
+@media only screen and (max-width: 800px) {
+  .img-blox-1 {
+    width: 100%;
+  }
+
+  .img-blox-2 {
+    width: 100%;
+    padding-left: 80px;
+  }
+
+  .container-size {
+    width: 100%;
+  }
+
+  .container-size-wife {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .container-size-regalia {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .work-name {
+    margin: 0;
+  }
+
+  .container-size-drift {
+    margin-left: 0px !important;
+  }
+
+  .container-size-blox {
+    margin-left: 0px !important;
+  }
+
+  .container-size-lifestyles {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+
+  .container-size-yellow {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .resize-me {
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .img-padding-top {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .push-less {
+    padding: 5px;
+    margin: 0;
+  }
+
+  .push-more {
+    padding: 5px;
+    margin: 0;
+  }
+
+  nav a {
+    color: #000;
+    width: auto;
+    display: block;
+    font-size: 15pt;
+    padding-right: 4px;
+  }
+
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  .work-container {
+    overflow-x: hidden;
+    padding: 50px 5px 20px 5px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  video {
+    max-width: 100%;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.about-me {}
+
+.reach-out {}
+}
